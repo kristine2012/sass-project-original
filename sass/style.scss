@@ -1,0 +1,16 @@
+@import 'cssresets';
+@import 'variables';
+@import 'nav';
+@import 'img';
+@import 'icons';
+
+
+body{
+  background-color: $backcolour;
+  color: $fontColor;
+}
+h1{
+  padding:$padding;
+  margin: 10*$margin;
+  transform: rotate(180);
+}
