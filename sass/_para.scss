@@ -1,0 +1,29 @@
+.paraleft{
+float: left;
+width: 45%;
+margin: auto;
+font-size: 20px;
+}
+
+.pararight {
+float: left;
+width: 40%;
+margin: auto;
+font-size: 20px;
+}
+.para::after {
+ clear: left;
+}
+.paraStyle {
+ color: orange;
+ font-family: cursive;
+}
+.list {
+ @extend .para, .paraStyle;
+ ol {
+   list-style: unset;
+   li {
+     margin: 20px;
+   }
+ }
+}
